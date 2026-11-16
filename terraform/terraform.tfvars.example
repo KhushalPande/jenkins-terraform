@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and change values if needed
+aws_region        = "ap-south-1"
+project_name      = "ci-cd-demo"
+environment       = "dev"
+instance_type     = "t3.micro"
+allowed_http_cidr = "0.0.0.0/0"
