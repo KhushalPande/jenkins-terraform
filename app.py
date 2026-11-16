@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-GREETING = "CI/CD with Jenkins - version 1"
+GREETING = "CI/CD with Jenkins - version 2"
 BUILD = os.getenv("APP_VERSION", "local")
 
 
